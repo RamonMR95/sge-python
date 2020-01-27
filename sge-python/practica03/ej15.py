@@ -6,16 +6,33 @@ num = int(input("Nivel (2-40): "))
 
 
 def dibujar(num):
-    for i in range(num):
-        for j in range(num):
+    val = num
+    for i in range(val):
+        for j in range(val):
             print("X", end="")
 
         print(" " * (2 * i), end="")
 
-        for j in range(num):
+        for j in range(val):
             print("X", end="")
-        print("")
-        num -= 1
+        print()
+        val -= 1
+
+    val += 1
+    n_blancos = (num * 2) - 2
+    for i in range(num - 1):
+        for j in range(val):
+            print("X", end="")
+        print(" " * n_blancos, end="")
+
+        for j in range(val):
+            print("X", end="")
+        print()
+        n_blancos -= 2
+        val += 1
+
+    for j in range(num * 2):
+        print("X", end="")
 
 
 if 2 <= num <= 40:
