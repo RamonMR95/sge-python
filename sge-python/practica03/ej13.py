@@ -1,5 +1,10 @@
+#!/usr/bin/env python3
 # Escribir un programa que solicite un número n y a continuación imprima todos los números
 # primos comprendidos en el intervalo [2-n]. Ejemplo
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
+
 
 num = int(input("Introduzca un número: "))
 primos = []

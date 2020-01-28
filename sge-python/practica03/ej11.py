@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # Escribir un programa que calcule el factorial de un número dado. Ejemplo:
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
+
+
 import math
 num = int(input("Introduce un número: "))
 

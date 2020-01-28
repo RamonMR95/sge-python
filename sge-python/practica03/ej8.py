@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
 # Escribir un programa que “dibuje” un mes del calendario. El programa recibirá como entrada el
 # número de días del mes y el día de la semana del primer día del mes. Ejemplo:
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
 
 n_dias = int(input("Número de dias del mes: "))
 dia1 = int(input("Dia 1 es (0 lunes, 6 domingo): "))

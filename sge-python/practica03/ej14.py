@@ -1,8 +1,12 @@
+#!/usr/bin/env python3
 # Escribir un programa que dándole un número (entre 2 y 40) imprima un triángulo como el de
 # la figura.
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
+
 
 num = int(input("Nivel (2-40): "))
-
 
 def dibujar(num):
     n_blancos = num

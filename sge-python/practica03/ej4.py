@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
 #  Escribir un programa que solicite un número positivo, acto seguido debe calcular la suma de
 # todos los números pares comprendidos entre 0 y el numero solicitado. Ejemplo:
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
 
 num = int(input("Introduce un número positivo: "))
 suma = 0

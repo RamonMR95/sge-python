@@ -1,7 +1,12 @@
+#!/usr/bin/env python3
 # Escribir un programa para calcular superficies. Constará de un menú que solicitará la figura a
 # la que se va a calcular la superficie, pedirá los datos (lado, base y altura, radio ...) según la figura
 # de la que se trate y visualizará el resultado. El programa deberá calcular superficies de las
 # siguientes figuras: cuadrados, triángulos y círculos. Ejemplo:
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
+
 import math
 
 

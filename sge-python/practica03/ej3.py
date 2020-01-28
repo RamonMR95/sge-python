@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
 # Programa que lee notas de los alumnos y dice cuántos están aprobados y cuál es la nota
 # media. El programa dejará de pedir notas, cuando se pulse la tecla ENTER.
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
 
 nota = input("Introduzca las notas, Enter para terminar: ")
 n_alumnos = 0
