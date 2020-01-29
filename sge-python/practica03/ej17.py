@@ -6,17 +6,27 @@ __author__ = "Ramón Moñino Rubio"
 __email__ = "ramonmr16@gmail.com"
 __version__ = "1.0.0"
 
-
 import random
 
-print("Piense un número del 0 al 100 (no me engañe ni cambie de número)")
+print("Piense un número del 1 al 100 (no me engañe ni cambie de número)")
 input("Pulse enter para comenzar")
 
 acierto = False
-n_intentos = 0
-intentos = {-1}
-limInf = 1
-limSup = 100
+
+
+def reset():
+    global n_intentos
+    global intentos
+    global limInf
+    global limSup
+    n_intentos = 0
+    intentos = {-1}
+    limInf = 1
+    limSup = 100
+
+
+reset()
+
 
 while not acierto:
     n_intentos += 1
@@ -28,25 +38,18 @@ while not acierto:
     resp = input(f"¿es el {num}? (m-mayor, n-menor, i-igual)")
 
     if resp == "m":
-        if num > limInf:
-            limInf = num - 1
+        limInf = num + 1
     if resp == "n":
-        if num < limSup:
-            limSup = num - 1
+        limSup = num - 1
     if resp == "i":
         print(f"¡¡¡Qué bueno soy, lo he acertado en tan sólo {n_intentos} intentos!!!")
         volver_jugar = input("¿Desea jugar otra vez (S/N)?").upper()
         if volver_jugar == "N":
             acierto = True
-            print("Hasta la vista")
-
-    cambiar = input("Quiere cambiar el número? (S/N)").upper()
-    if cambiar == "S" and not acierto:
-        n_intentos = 0
-        limInf = 0
-        limSup = 100
-        intentos = {-1}
-
-
-
-
+            print("\nHasta la vista!!")
+        else:
+            reset()
+    if limSup - limInf <= 1:
+        print(f"No puede cambiar el número a mitad del juego")
+        acierto = True
+        reset()
