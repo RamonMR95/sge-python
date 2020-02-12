@@ -76,8 +76,10 @@ for i in dict_empleados:
     else:
         paises[(dict_empleados[i])[2]] += 1
 
+
 print(f"Categorias: {categorias}")
 print(f"Paises: {paises}")
+print(f"País con mayor número de empleados: {max(paises.values())}")
 
 
 
