@@ -60,7 +60,7 @@ paises = {}
 dict_empleados = {
     1: ['Ramón', 'A', 'Francia'],
     2: ['Antonio', 'B', 'China'],
-    3: ['Alberto', 'B', 'Francia']
+    3: ['Alberto', 'B', 'China']
 }
 
 print("\nResolucion con diccionarios")
@@ -79,7 +79,7 @@ for i in dict_empleados:
 
 print(f"Categorias: {categorias}")
 print(f"Paises: {paises}")
-print(f"País con mayor número de empleados: {max(paises.values())}")
+print(f"País on mayor número de empleados: {max(paises.values())}")
 
 
 
