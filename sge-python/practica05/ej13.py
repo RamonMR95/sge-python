@@ -1,0 +1,36 @@
+# !/usr/bin/env python3
+# 12.- Diseña una función que reciba una matriz (generada a partir de la función del ejercicio anterior) y, si
+# es cuadrada (es decir, tiene igual número de filas que de columnas), devuelva la suma de todos los
+# componentes dispuestos en la diagonal principal (es decir, todos los elementos de la forma Ai,i). Si la
+# matriz no es cuadrada, la función devolverá None.
+__author__ = "Ramón Moñino Rubio"
+__email__ = "ramonmr16@gmail.com"
+__version__ = "1.0.0"
+
+import random
+
+
+def generar_matriz():
+    n_fila = random.randint(2, 6)
+    n_col = random.randint(2, 6)
+
+    matriz = [None] * n_col
+
+    for i in range(len(matriz)):
+        matriz[i] = [None] * n_fila
+        for j in range(len(matriz[i])):
+            rand = random.randint(0, 100)
+            matriz[i][j] = rand
+    return matriz
+
+
+matriz = generar_matriz()
+
+if len(matriz) == len(matriz[0]):
+    suma = 0
+    for i in range(len(matriz)):
+        print(matriz[i][i])
+        suma += matriz[i][i]
+    print(f"Suma: {suma} de la matriz {matriz}")
+else:
+    print(f"La matriz no es cuadrada! ({len(matriz)} X {len(matriz[0])})")
