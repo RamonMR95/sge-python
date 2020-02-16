@@ -1,4 +1,5 @@
-# !/usr/bin/env python3 10.- Escribir un programa que juegue al ahorcado, el programa deberá pensar unaa palabra
+# !/usr/bin/env python3
+# 10.- Escribir un programa que juegue al ahorcado, el programa deberá pensar unaa palabra
 # aleatoria de un diccionario fijo de 20 palabras. Una vez "pensada" la palabra, el ordenador dibujará el tablero y
 # pondrá tantos huecos como letras tenga la palabra: Se permitirá un total de 6 fallos (cabeza, tronco,
 # brazo izquierdo, brazo derecho, pierna izquierda, pierna derecha), al dibujar la pierna derecha aún quedará una
@@ -142,7 +143,6 @@ while not acierto and n_intentos < 6:
     else:
         screen_counter += 1
         n_intentos += 1
-    if letra not in letras_int:
         letras_int.add(letra)
     if shadow.count("_") == 0:
         print(draw())
@@ -153,6 +153,7 @@ while not acierto and n_intentos < 6:
             n_intentos = 0
             letras_int = set()
             palabra = random.randint(1, 20)
+            letras_jugadas = 0
             shadow = ["_"] * len(palabras[palabra])
 
 if not acierto:
