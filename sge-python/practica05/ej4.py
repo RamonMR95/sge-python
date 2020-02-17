@@ -5,19 +5,15 @@ __author__ = "Ramón Moñino Rubio"
 __email__ = "ramonmr16@gmail.com"
 __version__ = "1.0.0"
 
+from practica05.ej3 import calcular_letra
 
-numeros_nif = int(input("Introduce el NIF: "))
+if __name__ == '__main__':
+    numeros_nif = input("Introduce el NIF: ")
 
-tabla = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B",
-         "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
+    if len(str(numeros_nif)) == 8:
+        print(f"La letra correspondiente es {calcular_letra(numeros_nif)}")
+    else:
+        print("El nif debe tener 8 números")
 
-def es_nif():
-    letra = tabla[numeros_nif % 23]
-    print(f"El nif sería {str(numeros_nif) + letra}")
-
-if len(str(numeros_nif)) == 8:
-    es_nif()
-else:
-    print("El nif debe tener 8 números")
 
 

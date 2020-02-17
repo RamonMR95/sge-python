@@ -13,21 +13,29 @@ import re
 tabla = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B",
          "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
 
-nif = input("Introduce el NIF: ")
-n_numeros = len(re.findall(r"\d", nif))
-n_letras = len(re.findall(r"[a-zA-Z]", nif))
 
-
-def es_nif():
-    nums = int(nif[:8])
+def calcular_letra(v_nif):
+    nums = int(v_nif[:8])
     letra = tabla[nums % 23]
-    if letra == str(nif[8:]):
-        print("NIF Válido")
+    return letra
+
+
+def es_nif(v_nif):
+    letra = calcular_letra(v_nif)
+    if letra == str(v_nif[8:]):
+        return True
+    return False
+
+
+if __name__ == '__main__':
+    nif = input("Introduce el NIF: ")
+    n_numeros = len(re.findall(r"\d", nif))
+    n_letras = len(re.findall(r"[a-zA-Z]", nif))
+
+    if n_numeros == 8 and n_letras == 1:
+        if es_nif(nif):
+            print("NIF Válido")
+        else:
+            print(f"La letra válida sería {calcular_letra(nif)}")
     else:
-        print(f"La letra válida sería {letra}")
-
-
-if n_numeros == 8 and n_letras == 1:
-    es_nif()
-else:
-    print("Longitud del nif es inválida")
+        print("Longitud del nif es inválida")
