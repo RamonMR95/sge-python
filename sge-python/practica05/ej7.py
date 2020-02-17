@@ -9,17 +9,20 @@ __version__ = "1.0.0"
 
 lst = ["Pepe", "Ana", "Juan", "Paz"]
 
-mayor_n_letras = len(lst[0])
 
-for i in range(len(lst)):
-    if len(lst[i]) > mayor_n_letras:
-        mayor_n_letras = len(lst[i])
+def cad_mas_larga(lista):
+    mayor_n_letras = len(lista[0])
 
-res = []
+    for i in range(len(lista)):
+        if len(lista[i]) > mayor_n_letras:
+            mayor_n_letras = len(lista[i])
 
-for i in range(len(lst)):
-    if len(lst[i]) == mayor_n_letras:
-        res.append(lst[i])
+    res = []
+
+    for i in range(len(lista)):
+        if len(lista[i]) == mayor_n_letras:
+            res.append(lista[i])
 
 
-print(res)
+print(f"Cadenas más largas {cad_mas_larga(lst)}")
+
