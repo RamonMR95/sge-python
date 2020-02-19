@@ -32,10 +32,85 @@ __author__ = "Ramón Moñino Rubio"
 __email__ = "ramonmr16@gmail.com"
 __version__ = "1.0.0"
 
+
 class Empleado:
 
-    def __init__(self, nombre, edad, salario):
+    def __init__(self, nombre="test", edad=11, salario=1111.1):
         self.nombre = nombre
         self.edad = edad
         self.salario = salario
 
+    def clasificacion_segun_edad(self):
+        if self.edad <= 21:
+            print("Principiante!")
+        elif 22 <= self.edad:
+            print("Senior!")
+
+    def __str__(self):
+        return f"Nombre: {self.nombre}\nEdad: {self.edad}\nSalario: {self.salario}\n"
+
+    def aumentar_salario(self, porc):
+        self.salario *= ((porc / 100) + 1)
+
+
+class Programador(Empleado):
+
+    def __init__(self, nombre, edad, salario, lineas_codigo_por_hora=2, lenguaje_dominante="Java"):
+        Empleado.__init__(self, nombre, edad, salario)
+        self.lineas_codigo_por_hora = lineas_codigo_por_hora
+        self.lenguaje_dominante = lenguaje_dominante
+
+    def __str__(self):
+        return Empleado.__str__(self) + f"Lineas: {lineas_codigo}\nLenguaje dominante: {lenguaje_dominante}"
+
+
+if __name__ == '__main__':
+    lst_empleados = []
+
+    salir = False
+    while not salir:
+        opcion = int(input("\n1- Crear Empleado.\n"
+                           "2- Crear programador.\n"
+                           "3- Aumentar sueldo programador (nombre).\n"
+                           "4- Mostrar empleados.\n"
+                           "5- Salir."))
+
+        if opcion == 1:
+            nombre = input("Introduce el nombre del empleado: ")
+            edad = int(input("Introduce la edad del empleado: "))
+            salario = float(input("Introduce el salario del empleado: "))
+            lst_empleados.append(Empleado(nombre, edad, salario))
+        elif opcion == 2:
+            nombre = input("Introduce el nombre del programador: ")
+            edad = int(input("Introduce la edad del programador: "))
+            salario = float(input("Introduce el salario del programador: "))
+            lineas_codigo = int(input("Introduce el número de líneas de código por hora: "))
+            lenguaje_dominante = input("Introduce el lenguaje dominante: ")
+            lst_empleados.append(Programador(nombre, edad, salario, lineas_codigo, lenguaje_dominante))
+        elif opcion == 3:
+            if len(lst_empleados) > 0:
+                nombre = input("Introduce el nombre del empleado: ")
+                encontrado = False
+                i = 0
+                while not encontrado:
+                    if lst_empleados[i].nombre == nombre:
+                        porcentaje = float(input("Introduce el porcentaje de subida de sueldo: "))
+                        lst_empleados[i].aumentar_salario(porcentaje)
+                        encontrado = True
+                    else:
+                        i += 1
+                if encontrado:
+                    print(f"Aumentado el salario de {nombre} en un {porcentaje}%")
+                else:
+                    print(f"No existe empleado con nombre {nombre} en la lista!")
+            else:
+                print("No existe ningún empleado en la lista!")
+        elif opcion == 4:
+            if len(lst_empleados) > 0:
+                for emp in lst_empleados:
+                    print(f"Empleado: {emp}")
+            else:
+                print("No existe ningún empleado en la lista!")
+        elif opcion == 5:
+            print("Hasta la vista!")
+            salir = True

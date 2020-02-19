@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d2f632-8185-4889-ab13-21ec87cc8fb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practica06/avanzados/ej2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sge-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sge-python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica06/avanzados/ej3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica06/avanzados/ej2.py" beforeDir="false" afterPath="$PROJECT_DIR$/practica06/avanzados/ej2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <recent name="$PROJECT_DIR$/practica06/basicos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ej1 (1)">
+  <component name="RunManager" selected="Python.ej2 (1)">
     <configuration name="ej1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sge-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +107,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ej2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sge-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practica06/avanzados" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica06/avanzados/ej2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ej2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sge-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,28 +143,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica06/basicos/ej2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ej3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="sge-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practica06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica06/basicos/ej3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ej2 (1)" />
         <item itemvalue="Python.ej1 (1)" />
         <item itemvalue="Python.ej2" />
         <item itemvalue="Python.ej1" />
@@ -222,6 +221,7 @@
       <workItem from="1582011673081" duration="2580000" />
       <workItem from="1582014630552" duration="3092000" />
       <workItem from="1582041383759" duration="910000" />
+      <workItem from="1582127976278" duration="3339000" />
     </task>
     <servers />
   </component>
@@ -233,29 +233,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="207" y="148" width="374" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1582012980244" />
-    <state width="1558" height="177" key="GridCell.Tab.0.bottom" timestamp="1582017723699">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1860" height="154" key="GridCell.Tab.0.bottom" timestamp="1582130358783">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1558" height="177" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582017723699" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1580126666619" />
+    <state width="1860" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582130358783" />
     <state width="1860" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580328017819" />
-    <state width="1558" height="177" key="GridCell.Tab.0.center" timestamp="1582017723698">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1860" height="154" key="GridCell.Tab.0.center" timestamp="1582130358783">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1558" height="177" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582017723698" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1580126666619" />
+    <state width="1860" height="154" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582130358783" />
     <state width="1860" height="348" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580328017819" />
-    <state width="1558" height="177" key="GridCell.Tab.0.left" timestamp="1582017723698">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1860" height="154" key="GridCell.Tab.0.left" timestamp="1582130358782">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1558" height="177" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582017723698" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1580126666618" />
+    <state width="1860" height="154" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582130358782" />
     <state width="1860" height="348" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580328017819" />
-    <state width="1558" height="177" key="GridCell.Tab.0.right" timestamp="1582017723699">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1860" height="154" key="GridCell.Tab.0.right" timestamp="1582130358783">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1558" height="177" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582017723699" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1580126666619" />
+    <state width="1860" height="154" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582130358783" />
     <state width="1860" height="348" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580328017819" />
     <state width="1558" height="269" key="GridCell.Tab.1.bottom" timestamp="1581931660385">
       <screen x="0" y="0" width="1600" height="860" />
@@ -286,11 +286,11 @@
     </state>
     <state x="384" y="130" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581925004537" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582041428683" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1582041383763">
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1582127976274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="547" y="287" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1582014630533" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582041383763" />
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582127976274" />
     <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580325778051" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1579389818768">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -302,7 +302,7 @@
     <SUITE FILE_PATH="coverage/sge_python$ej8.coverage" NAME="ej8 Coverage Results" MODIFIED="1580054781845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
     <SUITE FILE_PATH="coverage/sge_python$ej2.coverage" NAME="ej2 Coverage Results" MODIFIED="1582013630556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
     <SUITE FILE_PATH="coverage/sge_python$ej15.coverage" NAME="ej15 Coverage Results" MODIFIED="1580227775486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej2__1_.coverage" NAME="ej2 (1) Coverage Results" MODIFIED="1580030522815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej2__1_.coverage" NAME="ej2 (1) Coverage Results" MODIFIED="1582130358777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
     <SUITE FILE_PATH="coverage/sge_python$ej3__1_.coverage" NAME="ej3 (1) Coverage Results" MODIFIED="1582014232305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
     <SUITE FILE_PATH="coverage/sge_python$3j6.coverage" NAME="3j6 Coverage Results" MODIFIED="1580031634841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
     <SUITE FILE_PATH="coverage/sge_python$ej6.coverage" NAME="ej6 Coverage Results" MODIFIED="1579390678267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica02" />
