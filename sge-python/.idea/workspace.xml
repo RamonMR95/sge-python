@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d2f632-8185-4889-ab13-21ec87cc8fb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sge-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sge-python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica06/avanzados/ej3.py" beforeDir="false" afterPath="$PROJECT_DIR$/practica06/avanzados/ej3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +225,7 @@
       <workItem from="1582477444357" duration="2487000" />
       <workItem from="1582480821444" duration="459000" />
       <workItem from="1582481375989" duration="867000" />
+      <workItem from="1582792579322" duration="1171000" />
     </task>
     <servers />
   </component>
@@ -236,6 +238,10 @@
     </state>
     <state x="207" y="148" width="374" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1582012980244" />
     <state x="248" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582477913105" />
+    <state x="577" y="171" width="424" height="506" key="FileChooserDialogImpl" timestamp="1582793144915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="577" y="171" width="424" height="506" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582793144915" />
     <state width="1860" height="321" key="GridCell.Tab.0.bottom" timestamp="1582479931243">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -284,15 +290,15 @@
     <state width="1558" height="269" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1581931660385" />
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1580126666619" />
     <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580328017819" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1582041428683">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="384" y="130" key="SettingsEditor" timestamp="1582792764316">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="384" y="130" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581925004537" />
+    <state x="384" y="130" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1582792764316" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582041428683" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1582481508448">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="547" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1582792634962">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="547" y="287" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1582014630533" />
+    <state x="547" y="287" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1582792634962" />
     <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1582481508448" />
     <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580325778051" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1579389818768">
@@ -301,26 +307,26 @@
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1024.738@0.0.1920.1050" timestamp="1579389818768" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sge_python$ej5.coverage" NAME="ej5 Coverage Results" MODIFIED="1580031476773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej8.coverage" NAME="ej8 Coverage Results" MODIFIED="1580054781845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej2.coverage" NAME="ej2 Coverage Results" MODIFIED="1582013630556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
-    <SUITE FILE_PATH="coverage/sge_python$ej15.coverage" NAME="ej15 Coverage Results" MODIFIED="1580227775486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej2__1_.coverage" NAME="ej2 (1) Coverage Results" MODIFIED="1582130358777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
-    <SUITE FILE_PATH="coverage/sge_python$ej3__1_.coverage" NAME="ej3 (1) Coverage Results" MODIFIED="1582014232305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
-    <SUITE FILE_PATH="coverage/sge_python$3j6.coverage" NAME="3j6 Coverage Results" MODIFIED="1580031634841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej6.coverage" NAME="ej6 Coverage Results" MODIFIED="1579390678267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica02" />
-    <SUITE FILE_PATH="coverage/sge_python$ej7.coverage" NAME="ej7 Coverage Results" MODIFIED="1581938499278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica05" />
-    <SUITE FILE_PATH="coverage/sge_python$ej12.coverage" NAME="ej12 Coverage Results" MODIFIED="1580035630063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej3.coverage" NAME="ej3 Coverage Results" MODIFIED="1582479780798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
-    <SUITE FILE_PATH="coverage/sge_python$ej16.coverage" NAME="ej16 Coverage Results" MODIFIED="1580054713192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej10.coverage" NAME="ej10 Coverage Results" MODIFIED="1580034222884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej13.coverage" NAME="ej13 Coverage Results" MODIFIED="1581926551644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica05" />
-    <SUITE FILE_PATH="coverage/sge_python$ej17.coverage" NAME="ej17 Coverage Results" MODIFIED="1580327975956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej1__1_.coverage" NAME="ej1 (1) Coverage Results" MODIFIED="1582017653728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
-    <SUITE FILE_PATH="coverage/sge_python$ej14.coverage" NAME="ej14 Coverage Results" MODIFIED="1580037332496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
     <SUITE FILE_PATH="coverage/sge_python$ej11.coverage" NAME="ej11 Coverage Results" MODIFIED="1580034976371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
-    <SUITE FILE_PATH="coverage/sge_python$ej1.coverage" NAME="ej1 Coverage Results" MODIFIED="1582013104912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
+    <SUITE FILE_PATH="coverage/sge_python$ej14.coverage" NAME="ej14 Coverage Results" MODIFIED="1580037332496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej17.coverage" NAME="ej17 Coverage Results" MODIFIED="1580327975956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej6.coverage" NAME="ej6 Coverage Results" MODIFIED="1579390678267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica02" />
     <SUITE FILE_PATH="coverage/sge_python$ej4.coverage" NAME="ej4 Coverage Results" MODIFIED="1581931633568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica05" />
+    <SUITE FILE_PATH="coverage/sge_python$ej2__1_.coverage" NAME="ej2 (1) Coverage Results" MODIFIED="1582130358777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
+    <SUITE FILE_PATH="coverage/sge_python$ej3.coverage" NAME="ej3 Coverage Results" MODIFIED="1582479780798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
+    <SUITE FILE_PATH="coverage/sge_python$ej13.coverage" NAME="ej13 Coverage Results" MODIFIED="1581926551644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica05" />
+    <SUITE FILE_PATH="coverage/sge_python$ej1__1_.coverage" NAME="ej1 (1) Coverage Results" MODIFIED="1582017653728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06/avanzados" />
+    <SUITE FILE_PATH="coverage/sge_python$ej7.coverage" NAME="ej7 Coverage Results" MODIFIED="1581938499278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica05" />
+    <SUITE FILE_PATH="coverage/sge_python$ej5.coverage" NAME="ej5 Coverage Results" MODIFIED="1580031476773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej2.coverage" NAME="ej2 Coverage Results" MODIFIED="1582013630556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
+    <SUITE FILE_PATH="coverage/sge_python$ej3__1_.coverage" NAME="ej3 (1) Coverage Results" MODIFIED="1582014232305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
+    <SUITE FILE_PATH="coverage/sge_python$ej16.coverage" NAME="ej16 Coverage Results" MODIFIED="1580054713192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$3j6.coverage" NAME="3j6 Coverage Results" MODIFIED="1580031634841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej12.coverage" NAME="ej12 Coverage Results" MODIFIED="1580035630063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej8.coverage" NAME="ej8 Coverage Results" MODIFIED="1580054781845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej10.coverage" NAME="ej10 Coverage Results" MODIFIED="1580034222884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej15.coverage" NAME="ej15 Coverage Results" MODIFIED="1580227775486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
+    <SUITE FILE_PATH="coverage/sge_python$ej1.coverage" NAME="ej1 Coverage Results" MODIFIED="1582013104912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica06" />
     <SUITE FILE_PATH="coverage/sge_python$ej9.coverage" NAME="ej9 Coverage Results" MODIFIED="1580033684654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practica03" />
   </component>
 </project>
