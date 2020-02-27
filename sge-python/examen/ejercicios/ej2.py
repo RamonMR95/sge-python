@@ -22,7 +22,6 @@ class Establecimiento:
         comentario = input("Introduce el comentario: ")
         if pais not in self.opiniones:
             self.opiniones[pais] = []
-
         self.opiniones[pais].append((punt, comentario))
 
     def media(self):
@@ -58,7 +57,6 @@ def menu():
 
 
 if __name__ == '__main__':
-
     opcion = input(menu())
 
     establecimiento = Establecimiento("Pais")
@@ -75,6 +73,7 @@ if __name__ == '__main__':
         elif opcion == "3":
             n_pais = input("Introduce el nombre del país: ")
             establecimiento.media()
+
         elif opcion == "4":
             print("Hasta pronto!")
 
