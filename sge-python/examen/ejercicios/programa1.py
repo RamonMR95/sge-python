@@ -1,6 +1,6 @@
 # Programa que usa la funcion recortes
 
-from ejercicios.ej1 import recortes
+from examen.ejercicios.ej1 import recortes
 
 test = [[1, 2, 3], [4, 5], [6, 7], [8, 9, 10]]
 
